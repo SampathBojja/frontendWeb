@@ -1,0 +1,154 @@
+.homeNavBar{
+    position: fixed;
+    background-color: white;
+    width: 100% ;height: 100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#div1{
+    background: url("pics/bgImage1.png") no-repeat;
+    background-size: cover;
+    height: 610px;
+    position: relative;
+    z-index: -1;
+    
+}
+#list1{
+    position: fixed;
+    right: 40px;
+}
+#navBar1{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+#list2{
+    position: fixed;
+    right: 40px;
+    top: 40px;
+
+
+}
+#navBar2{
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+#readmore{
+    height: 40px;
+    width: 100px;
+    color: white;
+    position: absolute;
+    left: 80px;
+    bottom: 100px;
+    background-color: orange;
+}
+.idPwehelp{
+    text-align: center; 
+    font-size: xx-large; font-family: Arial, Helvetica, sans-serif;
+}
+.idPcomb{
+    text-align: center;
+    font-size: x-large; font-family:monospace;
+}
+.ourtenets{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1our{
+    border-bottom: 2px solid rgb(255, 115, 0);
+}
+.divTrans{
+    height: 500px;
+    position: relative;
+}
+.divTransVideo{
+    display: inline-block;
+    padding-left: 80px;
+}
+.divTransDiv{
+    text-align: left;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    right: 0%;
+    display: inline-block;
+}
+
+/* digital leadership styling */
+.digitaldiv1{
+    margin-top: 0%;
+    height:410px ;
+    background: url("pics/digitalLeadership/bgpicDigital.jfif") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.digitaldiv1_1{
+    position: absolute;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.digitalDivP1{
+    font-size: xx-large;letter-spacing: 3px; word-spacing: 3px;text-align: left;
+    font-family: system-ui;
+    color: white;
+}
+.digitalDivP2{
+    color: white;
+    font-family: system-ui;
+}
+.digitalDivP3{
+    color: white;
+    font-family: system-ui; font-size: xx-large;
+}
+.digitalDivButton1{
+    background-color: rgb(255, 136, 0);
+    color: white; font-size: large;
+    border: none; border-radius: 5px;
+    padding: 8px 15px;
+}
+.digitalBook{
+    width: 23%;position: absolute;top: 20%;right: 25%;
+}
+.digitalButton1{
+    padding: 10px 20px;
+    position: relative; top: 30px; left: 100px;
+    
+}
+.digitalDiv2{
+    width: 85%;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+.digitalDiv2P{
+    font-family: Arial, Helvetica, sans-serif; font-size: x-large;
+}
+
+/* contact us */
+
+.contactDiv1{
+    height: 280px;
+    background: url("pics/contactUs/bgpicContactUs.jfif") no-repeat;
+    background-size: cover;
+}
+.contactDivForm{
+    background-color: rgb(230, 228, 228);
+    width: 82%;
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    margin: auto;
+}
+.contactDivLocations{
+    position: relative; margin: auto;
+    top: 470px; width: 83%;
+
+}
